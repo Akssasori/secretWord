@@ -49,7 +49,7 @@ function App() {
 
     //create an array of letters
     let wordsLetters = word.split("");
-    wordsLetters = wordsLetters.map((l) => l.toLowercase());
+    wordsLetters = wordsLetters.map((l) => l.toString().toLowerCase());
 
 
     // fill states
